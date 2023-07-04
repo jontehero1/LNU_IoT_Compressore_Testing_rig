@@ -1,4 +1,4 @@
-import Wi_Fi
+import wi_fi
 import pressure_sensor
 from force_sensor import read_moment
 import speed_sensor
@@ -9,7 +9,7 @@ from motor_control import motor
 
 #Connect to Wi-Fi
 try:
-    Wi_Fi.connect()
+    wi_fi.connect()
 except KeyboardInterrupt:
     machine.reset()
 
